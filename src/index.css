@@ -1,0 +1,65 @@
+body {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.listContainer {
+  margin: 10rem auto;
+  background-color: white;
+  box-shadow: 5px 5px 10px #888;
+  position: relative;
+  width: 80%;
+}
+
+.listContainer p {
+  margin: 0;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #eee;
+}
+
+.lists {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lists li {
+  padding: 2rem 0;
+  border-bottom: 2px solid #eee;
+}
+
+.lists li input {
+  margin: auto 1rem;
+}
+
+i {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+#add-input {
+  width: 80%;
+  border: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+*:focus {
+  outline: none;
+}
+
+.btn-container {
+  text-align: center;
+  width: 100%;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 2rem 0;
+  font-size: 20px;
+}
